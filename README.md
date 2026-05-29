@@ -4,6 +4,8 @@
 
 一个简单易用的代码头注释生成工具，帮助快速生成标准化的代码文件头部注释。支持多种编程语言风格，提供可视化配置界面。
 
+直达:https://aonzey.github.io/Code-Header-Comment-Generator/
+
 ## 功能特性
 
 - **多语言支持**：支持 C/C++/Java/JS/Go/Rust、Python、HTML/XML、Shell/Bash、Lua 等多种语言风格
