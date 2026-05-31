@@ -170,7 +170,7 @@ function generateHeader() {
             if (!f.key.trim()) {
                 header += ` *  ${f.value}\n`;
             } else {
-                header += ` *  ${f.key.padEnd(12)} : ${f.value}\n`;
+                header += ` *  ${f.key.padEnd(1)} : ${f.value}\n`;
             }
         });
         header += ` * ${separator}\n */`;
@@ -181,7 +181,7 @@ function generateHeader() {
             if (!f.key.trim()) {
                 header += `#  ${f.value}\n`;
             } else {
-                header += `#  ${f.key.padEnd(12)} : ${f.value}\n`;
+                header += `#  ${f.key.padEnd(1)} : ${f.value}\n`;
             }
         });
         header += `# ${separator}`;
@@ -192,7 +192,7 @@ function generateHeader() {
             if (!f.key.trim()) {
                 header += ` *  ${f.value}\n`;
             } else {
-                header += ` *  ${f.key.padEnd(12)} : ${f.value}\n`;
+                header += ` *  ${f.key.padEnd(1)} : ${f.value}\n`;
             }
         });
         header += ` * ${separator}\n-->`;
@@ -203,7 +203,7 @@ function generateHeader() {
             if (!f.key.trim()) {
                 header += `    ${f.value}\n`;
             } else {
-                header += `    ${f.key.padEnd(12)} : ${f.value}\n`;
+                header += `    ${f.key.padEnd(1)} : ${f.value}\n`;
             }
         });
         header += `    ${separator}\n]]`;
